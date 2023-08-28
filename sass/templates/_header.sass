@@ -1,5 +1,7 @@
 .header
   background-color: #fff
+  &-bottom
+    background-color: $light-dark-color
   &-top
     display: flex
     align-items: center
@@ -9,12 +11,27 @@
   &__search
     margin-right: auto
     margin-left: 108px
-
+  &-menu
+    color: $light-color
+    &__list
+      display: flex
+      justify-content: space-between
+      list-style: none
+      margin: 0
+      padding: 31px 0
+    &__link
+      color: inherit  
+      font-size: 14px
+      font-weight: 700
+      line-height: normal
+      text-transform: uppercase
+      text-decoration: none
+    
 .search
   display: flex
   position: relative
   overflow: hidden
-  border-radius: 6px  
+  border-radius: 6px
   height: 40px
   &__input
     width: 350px
@@ -24,7 +41,6 @@
     background-color: #F5FAFE
     border: none
     outline: none
-    font-size: 12px
     line-height: 15
     color: $text-color
   &__button
@@ -47,6 +63,6 @@
     object-fit: cover
   &__name
     margin-left: 18px
-    font-style: 14px
+    font-size: 14px
     line-height: 18px
     color: $text-color

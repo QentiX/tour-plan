@@ -4,7 +4,8 @@
 
 body {
   font-family: "Mulish", sans-serif;
-  text-color: #333;
+  color: #333;
+  font-size: 12px;
 }
 
 .container {
@@ -325,6 +326,9 @@ template {
 .header {
   background-color: #fff;
 }
+.header-bottom {
+  background-color: #0A223D;
+}
 .header-top {
   display: flex;
   align-items: center;
@@ -335,6 +339,24 @@ template {
 .header__search {
   margin-right: auto;
   margin-left: 108px;
+}
+.header-menu {
+  color: #fff;
+}
+.header-menu__list {
+  display: flex;
+  justify-content: space-between;
+  list-style: none;
+  margin: 0;
+  padding: 31px 0;
+}
+.header-menu__link {
+  color: inherit;
+  font-size: 14px;
+  font-weight: 700;
+  line-height: normal;
+  text-transform: uppercase;
+  text-decoration: none;
 }
 
 .search {
@@ -352,7 +374,6 @@ template {
   background-color: #F5FAFE;
   border: none;
   outline: none;
-  font-size: 12px;
   line-height: 15;
   color: #333;
 }
@@ -380,7 +401,7 @@ template {
 }
 .user__name {
   margin-left: 18px;
-  font-style: 14px;
+  font-size: 14px;
   line-height: 18px;
   color: #333;
 }/*# sourceMappingURL=style.css.map */
