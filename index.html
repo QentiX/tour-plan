@@ -2,14 +2,15 @@
 <html lang="en">
 
 <head>
-	<meta charset="UTF-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta charset="UTF-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
 	<title>Best Tour Plan - Hotel Booking</title>
-	<link rel="preconnect" href="https://fonts.googleapis.com">
-	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link rel="preconnect" href="https://fonts.googleapis.com" />
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
 	<link href="https://fonts.googleapis.com/css2?family=Mulish:wght@400;700&family=Nunito:wght@400;700;800&display=swap"
-		rel="stylesheet">
-	<link rel="stylesheet" href="css/style.css">
+		rel="stylesheet" />
+	<link rel="stylesheet" href="css/swiper-bundle.min.css" />
+	<link rel="stylesheet" href="css/style.css" />
 </head>
 
 <body>
@@ -22,7 +23,7 @@
 				</a>
 
 				<form action="#" class="search navbar__search">
-					<input type="text" class="search__input" placeholder="Search Location |">
+					<input type="text" class="search__input" placeholder="Search Location |" />
 					<button class="search__button">
 						<img src="img/search.svg" alt="search icon" />
 					</button>
@@ -108,7 +109,8 @@
 						<span class="offer hotel-info__offer">Flash Offer</span>
 					</div>
 					<!-- /.hotel-wrapper -->
-					<p class="hotel-description hotel-info__description">Half-Board/ All Inclusive + Complimentary Activities + Child Stays Free</p>
+					<p class="hotel-description hotel-info__description">Half-Board/ All Inclusive + Complimentary Activities +
+						Child Stays Free</p>
 				</div>
 
 				<div class="rating hotel-info__rating">
@@ -117,10 +119,36 @@
 				</div>
 			</div>
 			<!-- /.hotel-info -->
+			<div class="hotel-grid">
+				<div class="slider">
+					<div class="swiper">
+						<div class="swiper-wrapper">
+							<div class="swiper-slide">
+								<img src="img/slide1-hotel.jpeg" alt="swiper slide1">
+							</div>
+							<div class="swiper-slide">
+								<img src="img/slide2-hotel.jpg" alt="swiper slide2">
+							</div>
+							<div class="swiper-slide">
+								<img src="img/slide1-hotel.jpeg" alt="swiper slide3">
+							</div>
+						</div>
+
+						<button class="slider-button slider-button--prev"></button>
+						<button class="slider-button slider-button--next"></button>
+
+					</div>
+					<!-- /.swiper -->
+				</div>
+				<!-- /.slider -->
+			</div>
+			<!-- /.hotel-grid -->
 		</div>
 		<!-- /.container -->
 	</section>
 	<!-- /.hotel -->
+	<script src="js/swiper-bundle.js"></script>
+	<script src="js/main.js"></script>
 </body>
 
 </html>
