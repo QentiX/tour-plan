@@ -1,7 +1,7 @@
 const hotelSlider = new Swiper('.hotel-slider', {
 	// Optional parameters
 	loop: true,
-	speed: 1000,
+	speed: 750,
 	autoplay: {
 		delay: 5000,
 	},
