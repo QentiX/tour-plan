@@ -183,7 +183,7 @@
 							</a>
 						</div>
 						<!-- /.booking__call-center -->
-						<button class="button booking__button">View Other Options</button>
+						<button data-toggle="modal" class="button booking__button">View Other Options</button>
 					</div>
 					<!-- /.booking -->
 					<div class="map">
@@ -458,7 +458,7 @@
 					<form action="#" class="footer__form">
 						<input type="text" class="input footer__input" placeholder="Your Full Name*">
 						<input type="text" class="input footer__input" placeholder="Phone Number*">
-						<textarea placeholder="Message..." class="footer__message"></textarea>
+						<textarea placeholder="Message..." class="message footer__message"></textarea>
 						<button class="button footer__button">Send</button>
 						<span class="footer__info">* Required Fields</span>
 					</form>
@@ -489,7 +489,27 @@
 		<!-- /.container -->
 	</section>
 	<!-- /.footer -->
+	<div class="modal">
+		<div class="modal__overlay"></div>
+		<!-- /.modal__overlay -->
+		<div class="modal__dialog">
+			<a href="#" class="modal__close">
+				<img src="img/close.svg" alt="close icon">
+			</a>
+			<h3 class="modal__title modal__title--mb-3">Booking</h3>
+			<form action="#" class="modal__form">
+				<input type="text" class="input modal__input" placeholder="Your Full Name*">
+				<input type="text" class="input modal__input" placeholder="Phone Number*">
+				<textarea placeholder="Message..." class="message modal__message"></textarea>
+				<button class="button modal__button">Send</button>
+				<span class="modal__info">* Required Fields</span>
+			</form>
+		</div>
+		<!-- /.modal__dialog -->
+	</div>
+	<!-- /.modal -->
 	<script src="js/swiper-bundle.js"></script>
+	<script src="js/jquery-3.7.1.min.js"></script>
 	<script src="js/main.js"></script>
 </body>
 

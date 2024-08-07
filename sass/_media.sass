@@ -100,6 +100,9 @@
 			&-image
 				grid-column: 5/7
 				justify-self: right
+	.modal
+		&__dialog
+			padding: 33px 60px
 
 @media (max-width: 768px)
 	.container
@@ -237,6 +240,15 @@
 		&__contact
 			&-form
 				margin-bottom: 15px
+	.modal
+		&__dialog
+			padding: 25px 35px
+		&__button
+			order: 1
+		&__info
+			order: 0
+			width: 100%
+			margin-bottom: 15px
 
 @media (max-width: 576px)
 	.logo
@@ -310,3 +322,6 @@
 				position: absolute
 				left: 0
 				bottom: 0
+	.modal
+		&__dialog
+			width: 290px
