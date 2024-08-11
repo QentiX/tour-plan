@@ -1,3 +1,2 @@
 # tour-plan
-
-BEST TOUR PLAN - это макет сервиса по подбору отелей, ресторанов и тп, для удобного планирования путешествий или деловых поездок.
+  BEST TOUR PLAN is a mock-up of a service for the selection of hotels, restaurants, etc., for convenient travel planning or business trips.
